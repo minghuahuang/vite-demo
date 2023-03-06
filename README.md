@@ -1,5 +1,20 @@
 ## vite 简单使用项目
 
+
+## 启动
+
+安装依赖
+
+```shell
+npm install
+```
+
+启动项目
+
+```shell
+npx vite
+```
+
 ### 问题
 
 1. 报错：`[vite] Internal server error: Failed to load PostCSS config`
