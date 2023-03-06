@@ -15,6 +15,12 @@ npm install
 npx vite
 ```
 
+构建打包
+
+```shell
+npx vite build
+```
+
 ### 问题
 
 1. 报错：`[vite] Internal server error: Failed to load PostCSS config`
