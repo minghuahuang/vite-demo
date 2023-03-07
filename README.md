@@ -12,13 +12,13 @@ npm install
 启动项目
 
 ```shell
-npx vite
+npm run dev
 ```
 
 构建打包
 
 ```shell
-npx vite build
+npm run build
 ```
 
 ### 问题
