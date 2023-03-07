@@ -13,7 +13,7 @@ import viteImage from './images/vite.png'
 import App from './vue/App.vue'
 import { createApp } from 'vue'
 
-import React from 'react'
+// import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Rpp from './react/App.jsx'
 

@@ -56,3 +56,23 @@ export default {
 ```js
 import react from 'react'
 ```
+
+另一种解决：
+
+  - 修改 `main.js` -> `main.jsx`。同样 `index.html` 引入需要修改。
+
+  - 在 vite.config.js 文件中配置  `esbuild.jsxInject`
+  
+    ```js
+    import react from '@vitejs/plugin-react'
+
+    export default {
+      plugins: [
+        vue(),
+        react(),
+      ],
+      esbuild: {
+        jsxInject: `import React from 'react'`
+      }
+    }
+    ```

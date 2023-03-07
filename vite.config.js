@@ -5,11 +5,14 @@ export default {
   plugins: [
     vue(),
     react(
-    {
-      babel: {
-        plugins: [ '@babel/plugin-transform-react-jsx' ],
-      }
-    }
+    // {
+    //   babel: {
+    //     plugins: [ '@babel/plugin-transform-react-jsx' ],
+    //   }
+    // }
     ),
-  ]
+  ],
+  esbuild: {
+    jsxInject: `import React from 'react'`
+  }
 }
